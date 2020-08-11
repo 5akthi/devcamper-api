@@ -8,6 +8,8 @@ const {
 } = require("../controllers/courses");
 
 const Course = require("../models/Course");
+
+// Include other resurce routers
 const advanceResults = require("../middleware/advanceResults");
 
 const router = express.Router({ mergeParams: true });
